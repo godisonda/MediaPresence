@@ -58,7 +58,7 @@
 
 ```bash
 # Клонирование репозитория
-git clone [https://github.com/ВАШ_НИКНЕЙМ/РЕПОЗИТОРИЙ.git](https://github.com/ВАШ_НИКНЕЙМ/РЕПОЗИТОРИЙ.git)
+git clone https://github.com/godisonda/MediaPresence
 cd РЕПОЗИТОРИЙ
 
 # Установка зависимостей
