@@ -59,7 +59,7 @@
 ```bash
 # Клонирование репозитория
 git clone https://github.com/godisonda/MediaPresence
-cd РЕПОЗИТОРИЙ
+cd MediaPresence
 
 # Установка зависимостей
 pip install -r requirements.txt
