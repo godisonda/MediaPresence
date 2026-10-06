@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Media Presence Hub Client",
+  "version": "3.0",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "https://*.youtube.com/*",
+    "https://music.yandex.ru/*",
+    "https://music.yandex.com/*",
+    "ws://localhost:6412/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.youtube.com/*",
+        "https://music.yandex.ru/*",
+        "https://music.yandex.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}

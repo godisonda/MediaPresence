@@ -1,0 +1,15 @@
+# Виртуальное окружение
+venv/
+.env
+
+# PyInstaller и кэш сборщика
+build/
+dist/
+*.spec
+
+# Python кэш
+__pycache__/
+*.pyc
+
+# Локальные конфиги с личными токенами
+config.json
